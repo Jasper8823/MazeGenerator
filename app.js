@@ -188,7 +188,7 @@ app.post('/mazePage', (req, res) => {
 
         let imgS = [];
 
-        if(height*2<width){
+        if(height<width){
             imgW=Math.floor(800/width);
         }else{  
             imgW=Math.floor(800/height);
